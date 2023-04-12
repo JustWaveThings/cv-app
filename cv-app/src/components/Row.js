@@ -10,8 +10,14 @@ class Row extends Component {
 	render() {
 		return (
 			<div>
-				<Label rowTitle={`${this.props.rowValue}:`} />
-				<Input />
+				<Label
+					htmlFor={this.props.rowValue}
+					rowTitle={`${this.props.rowValue}:`}
+				/>
+				<Input
+					type="text"
+					id={this.props.rowValue}
+				/>
 			</div>
 		);
 	}

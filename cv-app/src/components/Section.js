@@ -29,11 +29,13 @@ class Section extends Component {
 		);
 
 		return (
-			<div>
+			<form>
 				<Header sectionTitle={this.props.section.title} />
-				{rows}
-				<ButtonRow />
-			</div>
+				<fieldset>
+					{rows}
+					<ButtonRow />
+				</fieldset>
+			</form>
 		);
 	}
 }
