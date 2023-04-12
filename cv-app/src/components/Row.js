@@ -17,6 +17,7 @@ class Row extends Component {
 				<Input
 					type="text"
 					id={this.props.rowValue}
+					rowTitle={this.props.rowTitle}
 				/>
 			</div>
 		);

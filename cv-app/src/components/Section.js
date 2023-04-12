@@ -6,7 +6,9 @@ import ButtonRow from './ButtonRow';
 class Section extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {};
+		this.state = {
+			/* this is where each section's state should live */
+		};
 	}
 	render() {
 		const rows = Object.entries(this.props.section).map(

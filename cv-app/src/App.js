@@ -6,6 +6,7 @@ export class App extends Component {
 	render() {
 		return (
 			<div className="App">
+				<h1>CV App</h1>
 				<Section section={SECTIONS[0]} />
 				<Section section={SECTIONS[1]} />
 				<Section section={SECTIONS[2]} />
@@ -16,7 +17,7 @@ export class App extends Component {
 
 export const SECTIONS = [
 	{
-		title: 'Contact Section',
+		title: 'My Contact Information',
 		name: 'Name',
 		email: 'Email',
 		phone: 'Phone',
@@ -24,7 +25,7 @@ export const SECTIONS = [
 		submit: 'Submit',
 	},
 	{
-		title: 'Education Section',
+		title: 'My Education',
 		school: 'School',
 		degree: 'Degree',
 		year: 'Year Completed',
@@ -33,7 +34,7 @@ export const SECTIONS = [
 		submit: 'Submit',
 	},
 	{
-		title: 'Experience Section',
+		title: 'My Relevant Experience',
 		company: 'Company',
 		position: 'Position',
 		yearStart: 'Year Started',

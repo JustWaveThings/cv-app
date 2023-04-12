@@ -6,8 +6,35 @@ class Input extends Component {
 
 		this.state = {};
 	}
+	handleChange = event => {
+		if (this.props.onChange) {
+			this.props.onChange(event.target.value);
+			console.log(event.target.value);
+		}
+	};
+
+	handleInputChange = value => {
+		this.setState({ inputValue: value });
+	};
+
 	render() {
-		return <input>{this.props.rowValue}</input>;
+		let output = null;
+		if (this.props.rowTitle === 'description') {
+			output = (
+				<textarea
+					value={this.props.rowValue}
+					onChange={this.handleChange}
+				></textarea>
+			);
+		} else {
+			output = (
+				<input
+					value={this.props.rowValue}
+					onChange={this.handleChange}
+				></input>
+			);
+		}
+		return output;
 	}
 }
 
