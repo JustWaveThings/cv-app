@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-class label extends Component {
+class Label extends Component {
 	constructor(props) {
 		super(props);
 
 		this.state = {};
 	}
 	render() {
-		return <div>label</div>;
+		return <div>Label</div>;
 	}
 }
 
-export default label;
+export default Label;
