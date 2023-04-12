@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-class Section extends Component {
+class Input extends Component {
 	constructor(props) {
 		super(props);
 
 		this.state = {};
 	}
 	render() {
-		return <div>Section</div>;
+		return <div>Input</div>;
 	}
 }
 
-export default Section;
+export default Input;
