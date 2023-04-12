@@ -7,7 +7,7 @@ class Input extends Component {
 		this.state = {};
 	}
 	render() {
-		return <div>Input</div>;
+		return <input>{this.props.rowValue}</input>;
 	}
 }
 

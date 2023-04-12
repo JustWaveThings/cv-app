@@ -7,7 +7,7 @@ class Label extends Component {
 		this.state = {};
 	}
 	render() {
-		return <div>Label</div>;
+		return <label>{this.props.rowTitle}</label>;
 	}
 }
 

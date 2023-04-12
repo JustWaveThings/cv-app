@@ -7,7 +7,7 @@ class Submit extends Component {
 		this.state = {};
 	}
 	render() {
-		return <div>Submit</div>;
+		return <button type="submit">Submit</button>;
 	}
 }
 

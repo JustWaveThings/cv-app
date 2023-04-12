@@ -1,15 +1,22 @@
 import React, { Component } from 'react';
 import './App.css';
+import Section from './components/Section';
 
 export class App extends Component {
 	render() {
-		return <div className="App"></div>;
+		return (
+			<div className="App">
+				<Section section={SECTIONS[0]} />
+				<Section section={SECTIONS[1]} />
+				<Section section={SECTIONS[2]} />
+			</div>
+		);
 	}
 }
 
-export const TEST = [
+export const SECTIONS = [
 	{
-		profile: 'Contact Section',
+		title: 'Contact Section',
 		name: 'Name',
 		email: 'Email',
 		phone: 'Phone',
@@ -17,7 +24,7 @@ export const TEST = [
 		submit: 'Submit',
 	},
 	{
-		education: 'Education Section',
+		title: 'Education Section',
 		school: 'School',
 		degree: 'Degree',
 		year: 'Year Completed',
@@ -26,7 +33,7 @@ export const TEST = [
 		submit: 'Submit',
 	},
 	{
-		experience: 'Experience Section',
+		title: 'Experience Section',
 		company: 'Company',
 		position: 'Position',
 		yearStart: 'Year Started',

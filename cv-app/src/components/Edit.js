@@ -7,7 +7,7 @@ class Edit extends Component {
 		this.state = {};
 	}
 	render() {
-		return <div>Edit</div>;
+		return <button>Edit</button>;
 	}
 }
 

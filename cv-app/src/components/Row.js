@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import Label from './Label';
+import Input from './Input';
 class Row extends Component {
 	constructor(props) {
 		super(props);
@@ -7,7 +8,12 @@ class Row extends Component {
 		this.state = {};
 	}
 	render() {
-		return <div>Row</div>;
+		return (
+			<div>
+				<Label rowTitle={`${this.props.rowValue}:`} />
+				<Input />
+			</div>
+		);
 	}
 }
 

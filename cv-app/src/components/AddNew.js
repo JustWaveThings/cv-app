@@ -7,7 +7,7 @@ class AddNew extends Component {
 		this.state = {};
 	}
 	render() {
-		return <div>AddNew</div>;
+		return <button>Add New</button>;
 	}
 }
 
