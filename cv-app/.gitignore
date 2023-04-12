@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# example folder from https://react.dev/learn/thinking-in-react
+/examples
