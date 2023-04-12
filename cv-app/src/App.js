@@ -7,34 +7,34 @@ export class App extends Component {
 	}
 }
 
-const TEST = [
+export const TEST = [
 	{
-		Profile: 'Contact Section',
-		name: 'name',
-		email: 'email',
-		phone: 'phone',
-		edit: 'edit',
-		submit: 'submit',
+		profile: 'Contact Section',
+		name: 'Name',
+		email: 'Email',
+		phone: 'Phone',
+		edit: 'Edit',
+		submit: 'Submit',
 	},
 	{
-		Education: 'Education Section',
-		school: 'school',
-		degree: 'degree',
-		year: 'year',
-		edit: 'edit',
-		addNew: 'add new',
-		submit: 'submit',
+		education: 'Education Section',
+		school: 'School',
+		degree: 'Degree',
+		year: 'Year Completed',
+		edit: 'Edit',
+		addNew: 'Add New',
+		submit: 'Submit',
 	},
 	{
-		Experience: 'Experience Section',
-		company: 'company',
-		position: 'position',
+		experience: 'Experience Section',
+		company: 'Company',
+		position: 'Position',
 		yearStart: 'Year Started',
 		yearEnd: 'Year Ended',
 		description: 'Duties Performed',
-		edit: 'edit',
-		addNew: 'add new',
-		submit: 'submit',
+		edit: 'Edit',
+		addNew: 'Add New',
+		submit: 'Submit',
 	},
 ];
 
